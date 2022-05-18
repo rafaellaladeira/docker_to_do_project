@@ -4,4 +4,4 @@ ADD node_modules.tar.gz ./
 COPY . .
 WORKDIR /
 RUN npm install
-CMD ["npm" , "start"]
+CMD ["npm", "start"]
